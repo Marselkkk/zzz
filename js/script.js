@@ -1,5 +1,5 @@
 let canva = document.getElementById("game");
-let cont = canva.getContext("2d");
+let cont = canva.getContext("2D");
 
 const grass = new Image();
 grass.src = "../img/grass.png";
