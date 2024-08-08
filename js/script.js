@@ -62,7 +62,7 @@ function startGame() {
             clearInterval(int);
     }
 
-    if(dir == "left") snakeX -= square;
+    if(dir == "leftt") snakeX -= square;
     if(dir == "right") snakeX += square;
     if(dir == "up") snakeY -= square;
     if(dir == "down") snakeY += square;
